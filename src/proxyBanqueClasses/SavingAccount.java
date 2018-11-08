@@ -1,5 +1,10 @@
 package proxyBanqueClasses;
 
-public class SavingAccount {
+public class SavingAccount extends BankAccount {
 
+	public SavingAccount(int accountNumber, double credit, String openingDate) {
+		super(accountNumber, credit, openingDate);
+		// TODO Auto-generated constructor stub
+	}
+	
 }
