@@ -2,9 +2,9 @@ package proxyBanqueClasses;
 
 public class Manager {
 
-	public int idManager;
+	public String idManager;
 	
-	public Manager(int idManager) {
+	public Manager(String  idManager) {
 		
 		this.idManager = idManager;
 		

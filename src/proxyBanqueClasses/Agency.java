@@ -11,8 +11,7 @@ public class Agency {
 	public Manager manager;
 	
 	
-	public Agency(String idNumber,String dateAgency,List<Advisor> advisors,Manager manager) {
-		
+	public Agency(String idNumber,String dateAgency,Manager manager) {
 		this.idNumber = idNumber;
 		this.dateAgency = dateAgency;
 		this.advisors = new ArrayList<Advisor>();
